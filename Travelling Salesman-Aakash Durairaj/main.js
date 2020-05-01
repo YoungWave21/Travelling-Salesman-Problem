@@ -83,6 +83,8 @@ function calcDistance(points, positionalOrder) {
     }
     return sumOfDistance;
 }
+
+// https://www.quora.com/How-would-you-explain-an-algorithm-that-generates-permutations-using-lexicographic-ordering
 function shuffle() {
     // suffles thorough every all the possible permutations 
     let largestX = -1;
